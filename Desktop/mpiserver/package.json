@@ -1,0 +1,16 @@
+{
+  "name": "mpiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8000",
+    "start:secure": "json-server --watch db.json --port 8000 --delay 1000 --ssl"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
